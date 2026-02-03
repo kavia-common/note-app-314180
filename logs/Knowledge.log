@@ -116,3 +116,63 @@
 2026-02-03 10:08:43,927 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 240, Duration: 0ms
 2026-02-03 10:08:44,132 - Knowledge - INFO - Saving knowledge to Redis...
 2026-02-03 10:08:44,286 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-02-03 13:53:44,694 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-02-03 13:53:45,060 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-02-03 13:53:45,268 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-02-03 13:53:45,475 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-02-03 13:53:46,443 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-02-03 13:53:46,663 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-02-03 13:53:46,862 - Knowledge - INFO - load persisted knowledge: begin
+2026-02-03 13:53:47,142 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/314180/b3570l6/note-app-314180/.knowledge have been renamed to use .json
+2026-02-03 13:53:47,366 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:47,547 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:47,806 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:48,003 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:48,168 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/script.js
+2026-02-03 13:53:48,435 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-02-03 13:53:49,716 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: script.js, Duration: 1078ms
+2026-02-03 13:53:49,935 - Knowledge - INFO - persist search terms embedding for script.js
+2026-02-03 13:53:50,113 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/script.js
+2026-02-03 13:53:50,329 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:50,526 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:50,775 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:50,939 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:51,151 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/style.css
+2026-02-03 13:53:51,456 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 76ms
+2026-02-03 13:53:51,967 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: style.css, Duration: 289ms
+2026-02-03 13:53:52,165 - Knowledge - INFO - persist search terms embedding for style.css
+2026-02-03 13:53:52,347 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/style.css
+2026-02-03 13:53:52,561 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:52,786 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:53,028 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:53,241 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:53,454 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/README.md
+2026-02-03 13:53:53,787 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 114ms
+2026-02-03 13:53:54,269 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 242ms
+2026-02-03 13:53:54,477 - Knowledge - INFO - persist search terms embedding for README.md
+2026-02-03 13:53:54,651 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/README.md
+2026-02-03 13:53:54,855 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:55,030 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:55,282 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/note-app-314180.git:kavia-main
+2026-02-03 13:53:55,457 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f29cdd80790>
+2026-02-03 13:53:55,637 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/index.html
+2026-02-03 13:53:55,920 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-02-03 13:53:56,401 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: index.html, Duration: 273ms
+2026-02-03 13:53:56,613 - Knowledge - INFO - persist search terms embedding for index.html
+2026-02-03 13:53:56,825 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/314180/b3570l6/note-app-314180/index.html
+2026-02-03 13:53:57,048 - Knowledge - INFO - Loaded 4 files from persisted knowledge
+2026-02-03 13:53:57,261 - Knowledge - INFO - load persisted knowledge: end
+2026-02-03 13:53:57,454 - Knowledge - INFO - Redis support added with prefix knowledge:b3570l6:
+2026-02-03 13:53:57,701 - Knowledge - INFO - Starting knowledge initialization for ID: NK1V66-b3570l6
+2026-02-03 13:53:57,960 - Knowledge - INFO - 🔍 Checking Redis for build_id: b3570l6
+2026-02-03 13:53:58,137 - Knowledge - INFO - 🔍 Full session ID: NK1V66-b3570l6
+2026-02-03 13:53:58,343 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b3570l6:
+2026-02-03 13:53:58,498 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-02-03 13:53:58,687 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-02-03 13:53:58,863 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b3570l6
+2026-02-03 13:53:59,055 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-02-03 13:53:59,236 - Knowledge - INFO - ✅ Successfully loaded from Redis: 4 files
+2026-02-03 13:53:59,417 - Knowledge - INFO - ✅ Redis load complete: 4 files in 0.92s
+2026-02-03 13:53:59,614 - Knowledge - INFO - ⚡ Total Redis path: 0.92s (vs ~300s from disk)
+2026-02-03 13:53:59,850 - Knowledge - INFO - Saving knowledge to Redis...
+2026-02-03 13:54:00,090 - Knowledge - INFO - Knowledge saved to Redis successfully
